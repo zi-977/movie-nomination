@@ -1,0 +1,42 @@
+.container {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid-item {
+  border-radius: 3px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: rgb(255,255,255);
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.shoppies {
+  font-size: x-large;
+  font-weight: bold;
+  grid-column-start: span 2;
+}
+
+.search {
+  grid-column-start: span 2;
+}
+
+.results {
+  grid-column: 1 / 2;
+}
+
+.nominations {
+  grid-column: 2 / 3;
+}
